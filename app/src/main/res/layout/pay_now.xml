@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView_144"
+        android:layout_width="193dp"
+        android:layout_height="143dp"
+        app:srcCompat="@drawable/bankicon"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <ImageView
+        android:id="@+id/imageView2_144"
+        android:layout_width="54dp"
+        android:layout_height="41dp"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/textView_144"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Now"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView2_144"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3_144"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To pay: $950"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <TextView
+        android:id="@+id/textView4_144"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bank: Citi bank"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/button_144"
+        android:layout_width="246dp"
+        android:layout_height="79dp"
+        android:text="Change payment method"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+    <Button
+        android:id="@+id/button2_144"
+        android:layout_width="243dp"
+        android:layout_height="69dp"
+        android:text="Pay Security"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="470dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
